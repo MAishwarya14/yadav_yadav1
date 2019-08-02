@@ -34,7 +34,7 @@ draw_board();
     //Intitially draw the board
     int check,move;
     check=check_win();
-    printf("%d",check);
+    //printf("%d",check);
 while(check!=1)
 {
     //Loop till check_win is not equal to 1
