@@ -122,7 +122,7 @@ char take_input()
 Take input and return it ,Use Fflush if scanf is being used
 
 */
-int ch;
+char ch;
 printf("----------[W] UP --- [S] Down --- [A] LEFT --- [D] Right--------------\n");
 scanf("%c",&ch);
 //if(ch!='w' && ch!='s' && ch!='a' && ch!='d')
